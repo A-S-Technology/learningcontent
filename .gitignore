@@ -1,0 +1,75 @@
+# Generic Gitignore for VSCode, Python, and unnecessary files
+
+# Ignore VSCode-specific settings
+.vscode/
+*.code-workspace
+
+# Ignore Python bytecode files and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore virtual environment folders
+venv/
+.env/
+env/
+.venv/
+
+# Ignore pipenv, poetry, and related files
+Pipfile
+Pipfile.lock
+poetry.lock
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.DS_Store
+*.~*
+
+# Ignore macOS specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Ignore Windows specific files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Ignore Python environment and dependency files
+*.egg
+*.egg-info/
+.eggs/
+dist/
+build/
+*.wheel
+
+# Ignore coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Ignore pytest cache
+.pytest_cache/
+
+# Ignore tools and IDE configs
+.idea/
+.mypy_cache/
+.pyre/
+.pytype/
+
+# Ignore data science temporary files
+*.ipynb_checkpoints
+*.sqlite3
+*.db
